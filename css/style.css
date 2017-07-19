@@ -1,0 +1,139 @@
+
+@import 'https://fonts.googleapis.com/css?family=Lato:400,700';
+
+body {
+  color: #484848;
+  font-family: 'Lato', sans-serif;
+  padding: .45em 2.65em 3em;
+  line-height: 1.5;
+  background-image: url("../images/lined_paper.png");
+}
+h1 {
+  margin-bottom: -30px;
+  text-align: center;
+  color: #0a0a3c;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 3em;
+
+}
+h1 + p {
+  font-size: 1.5em;
+  color: #b71e20;
+  text-align: center;
+  margin-bottom: 0.5em;
+  padding-bottom: 0.5em;
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+
+ul {
+  padding-left: 0;
+  list-style: none;
+  font-family: 'Coming Soon', cursive;
+}
+li {
+  padding: .45em .5em;
+  margin-bottom: .35em;
+  display: flex;
+  align-items: center;
+}
+input,
+button {
+  font-size: .85em;
+  padding: .65em 1em;
+  border-radius: .3em;
+  outline: 0;
+  font-family: 'Coming Soon', cursive;
+}
+input {
+  border: 1px solid #dcdcdc;
+  font-family: 'Coming Soon', cursive;
+  background: url("../images/ricepaper_v3.png");
+}
+
+
+#notepad {
+padding-left: 50px;
+padding-right: 50px;
+padding-bottom: 40px;
+padding-top: 10px;
+margin: auto;
+margin-top: 80px;
+margin-bottom: 40px;
+max-width: 550px;
+background: #fff; 
+box-shadow: 2.5px 2.5px 9px 4px rgba(0,0,0,0.54);
+ 
+background-image: url("../images/handmadepaper.png"); 
+}
+
+p.description,
+p:nth-of-type(2) {
+  font-weight: bold;
+  font-family: 'Coming Soon', cursive;
+}
+
+#toggleList{
+  border:dotted 2px #b71e20;
+  color: #b71e20;
+}
+
+#toggleList:hover {
+box-shadow:2px 8px 4px -6px hsla(0,0%,0%,.3);
+}
+
+button{
+      align-self:center;
+      background:transparent;
+      padding:1rem 1rem;
+      margin:0 1rem;
+      transition:all .5s ease;
+      color:#41403E;
+      max-height: 50px;
+      font-size:1rem;
+      letter-spacing:1px;
+      outline:none;
+      box-shadow: 20px 38px 34px -26px hsla(0,0%,0%,.2);
+      border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+      font-family: 'Architects Daughter', cursive;
+      border: none;
+      padding: .5em .65em;
+
+       }
+       
+button + button {
+  margin-left: .2em;
+
+}
+p + button {
+  margin: auto;
+}
+
+li button:first-child {
+  margin-left: auto;
+  display: block;
+
+}
+.list li button:last-child {
+border:dashed 2px #b71e20;
+color: #b71e20;
+
+}
+li button {
+  border:solid 2px #010080;
+  font-size: .75em;
+  color: #010080;
+}
+
+li button:hover {
+  box-shadow:2px 8px 4px -6px hsla(0,0%,0%,.3);
+}
+
+.addItemButton {
+     border:dotted 2px #027f01;
+     color: #027f01;
+}
+
+.addItemButton:hover {
+         box-shadow:2px 8px 4px -6px hsla(0,0%,0%,.3);
+}
